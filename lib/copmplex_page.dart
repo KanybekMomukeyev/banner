@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'image_carousel.dart';
+import 'rates_page.dart';
 
 class ComplexPage extends StatelessWidget {
   final String title;
@@ -31,10 +32,10 @@ class ComplexPage extends StatelessWidget {
             children: [
               Expanded(child: ImageCarousel()),
               Container(
-                color: Colors.blue,
-                height: 50.0,
-                width: 250.0,
-              ),
+                  color: Colors.white,
+                  height: 50.0,
+                  width: 250.0,
+                  child: RatesPage()),
             ],
           ),
         ),
